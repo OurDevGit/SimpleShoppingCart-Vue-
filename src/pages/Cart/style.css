@@ -1,0 +1,53 @@
+ .cart{
+    width: 500px;
+    margin: auto;
+    background: #F8F8F8;
+    border: 10px solid #EBEBEB;
+    padding: 20px
+  }
+  .radio-com{
+    border-bottom: 1px solid #EBEBEB;
+    text-align: left;
+  }
+  .number-select{
+    padding: 40px;
+    border-bottom: 1px solid #EBEBEB;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  select{
+    height: 25px;
+    width: 50px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+  }
+  .right{
+    float: right;
+  }
+  .cart-result{
+    margin: 30px;
+  }
+  .cart-result .total{
+    font-weight: bold;
+    font-size: 22px;;
+  }
+  .cart-result .total a{
+    color: #2A83A5;
+  }
+  .cart-result .total a span{
+    font-size: 10px !important;
+    position: relative;
+    top: -4px;
+  }
+  .cart-result .selplanlabel{
+    margin-top: 50px;
+    color: #2A83A5
+  }
+  button{
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background: #33A845;
+    color: white;
+  }
