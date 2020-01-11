@@ -49,6 +49,7 @@ export default {
     // Triggered when `childToParent` event is emitted by the child.
     onRadioChange (value) {
       this.picked = value
+      this.selected = 1
     }
   }
 }
