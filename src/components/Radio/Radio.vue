@@ -1,5 +1,5 @@
 <template>
-      <label class="container"> LiCENSEPLAN#{{ product.id }}
+      <label class="container"> LICENSEPLAN#{{ product.id }}
         <input type="radio" name="radio"
           v-bind:value="{
             id: product.id,

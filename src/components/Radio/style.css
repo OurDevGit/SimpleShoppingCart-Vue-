@@ -9,9 +9,10 @@
     padding-right: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-bottom: 12px;
+    margin: 6px auto;
     cursor: pointer;
     font-size: 22px;
+    letter-spacing: -2px;
     color: #7D7D7E;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -29,6 +30,7 @@
   .container .right{
     font-size: 16px;
     color: #B2B6B7;
+    letter-spacing: 0;
   }
   
   /* Create a custom radio button */
@@ -76,4 +78,24 @@
   height:12px;
   border-radius: 50%;
   background: #1E9ABE;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .container {
+      font-size: 16px !important;
+    }
+    .container .checkmark{
+      top: 10px;
+    }
+    .container .right{
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 326px) {
+    .container{
+      width: 100px;
+    }
+    .container .checkmark{
+      top: 17px;
+    }
   }

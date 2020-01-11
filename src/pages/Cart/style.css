@@ -3,7 +3,8 @@
     margin: auto;
     background: #F8F8F8;
     border: 10px solid #EBEBEB;
-    padding: 20px
+    padding: 20px;
+    min-width: 150px;
   }
   .radio-com{
     border-bottom: 1px solid #EBEBEB;
@@ -25,7 +26,7 @@
     float: right;
   }
   .cart-result{
-    margin: 30px;
+    margin: 30px auto;
   }
   .cart-result .total{
     font-weight: bold;
@@ -35,7 +36,7 @@
     color: #2A83A5;
   }
   .cart-result .total a span{
-    font-size: 10px !important;
+    font-size: 14px !important;
     position: relative;
     top: -4px;
   }
@@ -50,4 +51,14 @@
     border-style: none;
     background: #33A845;
     color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .cart {
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .cart {
+      padding: 5px;
+    }
   }
